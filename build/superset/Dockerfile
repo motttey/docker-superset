@@ -1,4 +1,4 @@
-FROM apache/incubator-superset:latest
+FROM apache/superset:latest
 
 # Setup local admin account
 RUN superset fab create-admin \
